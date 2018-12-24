@@ -1,10 +1,12 @@
 #! /bin/bash
 
+
 echo '一键安装python3.x程序'
-yum install vim -y
+#安装环境包
+#yum install vim -y
 yum -y install zlib zlib-devel
 yum -y install bzip2 bzip2-devel
-yum -y install ncurses ncurses-devel
+#yum -y install ncurses ncurses-devel
 yum -y install readline readline-devel
 yum -y install openssl openssl-devel
 yum -y install openssl-static
@@ -16,9 +18,11 @@ yum -y install libffi libffi-devel
 yum -y install zlib* libffi-devel
 yum install gcc* glien* -y
 #下载3.7.1的包
+#更高版本可以替换链接
 wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz
 
 #解压包
+#更高版本注意修改文件名
 tar -xvf Python-3.7.1.tgz
 mkdir /usr/local/python3
 #进入python 目录
