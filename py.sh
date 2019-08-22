@@ -1,7 +1,7 @@
 #! /bin/bash
 # python 版本
 
-version='3.7.3'
+version='3.7.4'
 echo '一键安装python3.x程序'
 
 #安装环境包
